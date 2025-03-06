@@ -34,23 +34,23 @@ pip install -r requirements.txt
 ```text
 .
 ├── dataset                           
-   ├── CARUSERdata	             # bert文本分类数据集
-   ├── DuReaderQG                    # t5问答数据集
+    ├── CARUSERdata	             # bert文本分类数据集
+    ├── DuReaderQG                    # t5问答数据集
 ├── examples
-   ├── bert_predict.py               # 分类任务测试样例
-   ├── t5_predict.py		     # 问答任务测试样例
+    ├── bert_predict.py               # 分类任务测试样例
+    ├── t5_predict.py		     # 问答任务测试样例
 ├── models
-	 ├── bert_base_chinese       # bert预训练模型
-	 ├── t5_base                 # t5预训练模型
+	├── bert_base_chinese       # bert预训练模型
+	├── t5_base                 # t5预训练模型
 ├── saves
-	 ├── bert_saved_dict         # bert模型微调后的权重参数
-	 ├── t5_saved_dict           # t5模型微调后的权重参数
+	├── bert_saved_dict         # bert模型微调后的权重参数
+	├── t5_saved_dict           # t5模型微调后的权重参数
 ├── train_eval
-   ├── train_bert.py                 # bert模型的训练流程
-   ├── train_t5.py                   # t5模型的训练流程
+    ├── train_bert.py                 # bert模型的训练流程
+    ├── train_t5.py                   # t5模型的训练流程
 ├── utils
-   ├── bert_util.py                  # bert模型数据处理
-   ├── t5_util.py                    # t5模型数据处理
+    ├── bert_util.py                  # bert模型数据处理
+    ├── t5_util.py                    # t5模型数据处理
 ├── run_bert.py                      # 微调训练bert模型
 ├── run_t5.py                        # 微调训练t5模型
 ├── requirements.txt                 # 第三方依赖库
