@@ -49,12 +49,12 @@ pip install -r requirements.txt
    ├── train_bert.py             # bert模型的训练流程
    ├── train_t5.py               # t5模型的训练流程
 ├── utils
-   ├── bert_util.py              # bert模型数据处理
-   ├── t5_util.py                # t5模型数据处理
-├── run_bert.py                  # 微调训练bert模型
-├── run_t5.py                    # 微调训练t5模型
-├── requirements.txt             # 第三方依赖库
-├── README.md                    # 说明文档             
+   ├── bert_util.py                 # bert模型数据处理
+   ├── t5_util.py                    # t5模型数据处理
+├── run_bert.py                      # 微调训练bert模型
+├── run_t5.py                        # 微调训练t5模型
+├── requirements.txt                 # 第三方依赖库
+├── README.md                        # 说明文档             
 ```
 
 ## 6、中文数据集
