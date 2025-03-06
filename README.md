@@ -34,11 +34,11 @@ pip install -r requirements.txt
 ```text
 .
 ├── dataset                           
-   ├── CARUSERdata				 # bert文本分类数据集
+   ├── CARUSERdata	# bert文本分类数据集
    ├── DuReaderQG                    # t5问答数据集
 ├── examples
    ├── bert_predict.py               # 分类任务测试样例
-   ├── t5_predict.py			 # 问答任务测试样例
+   ├── t5_predict.py		# 问答任务测试样例
 ├── models
 	 ├── bert_base_chinese       # bert预训练模型
 	 ├── t5_base                 # t5预训练模型
