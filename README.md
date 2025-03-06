@@ -34,11 +34,11 @@ pip install -r requirements.txt
 ```text
 .
 ├── dataset                           
-   ├── CARUSERdata	            # bert文本分类数据集
+   ├── CARUSERdata	             # bert文本分类数据集
    ├── DuReaderQG                    # t5问答数据集
 ├── examples
    ├── bert_predict.py               # 分类任务测试样例
-   ├── t5_predict.py		    # 问答任务测试样例
+   ├── t5_predict.py		     # 问答任务测试样例
 ├── models
 	 ├── bert_base_chinese       # bert预训练模型
 	 ├── t5_base                 # t5预训练模型
@@ -59,9 +59,9 @@ pip install -r requirements.txt
 
 ## 6、中文数据集
 
-关于中文文本分类的数据集dataset/CARUSERdata，主要来自真实的汽车行业用户观点数据，任务是识别文本的主题及情感。其中数据集中的每段文本都有两类标签有，分别是主题和情感。数据集中主题被分为10类，包括：动力、价格、内饰、配置、安全性、外观、操控、油耗、空间、舒适性。情感分为3类，分别用数字0、1、-1表示中立、正向、负向。由于数据集中每个文本的主题标签都伴随着情感类别，所以当主题有多个标签时，情感采用数字加和的方式，sum大于0为正向，小于0为负向，0为中性。
+关于中文文本分类的数据集[dataset/CARUSERdata](https://github.com/zhangzg1/nlp-models/tree/main/dataset/CARUSERdata)，主要来自真实的汽车行业用户观点数据，任务是识别文本的主题及情感。其中数据集中的每段文本都有两类标签有，分别是主题和情感。数据集中主题被分为10类，包括：动力、价格、内饰、配置、安全性、外观、操控、油耗、空间、舒适性。情感分为3类，分别用数字0、1、-1表示中立、正向、负向。由于数据集中每个文本的主题标签都伴随着情感类别，所以当主题有多个标签时，情感采用数字加和的方式，sum大于0为正向，小于0为负向，0为中性。
 
-关于问答任务的数据集data/DuReaderQG，任务是根据参考文本和用户的问题，模型输出问题的答案。数据集中的每一行为一个数据样本，主要是`json` 格式。其中，`context` 代表参考文章，`question` 代表问题，`answer` 代表问题答案。
+关于问答任务的数据集[dataset/DuReaderQG](https://github.com/zhangzg1/nlp-models/tree/main/dataset/DuReaderQG)，任务是根据参考文本和用户的问题，模型输出问题的答案。数据集中的每一行为一个数据样本，主要是`json` 格式。其中，`context` 代表参考文章，`question` 代表问题，`answer` 代表问题答案。
 
 ## 7、模型训练
 
