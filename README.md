@@ -40,11 +40,11 @@ pip install -r requirements.txt
     ├── bert_predict.py              # 分类任务测试样例
     ├── t5_predict.py		     # 问答任务测试样例
 ├── models
-	├── bert_base_chinese        # bert预训练模型
-	├── t5_base                  # t5预训练模型
+	├── bert_base_chinese           # bert预训练模型
+	├── t5_base                     # t5预训练模型
 ├── saves
-	├── bert_saved_dict          # bert模型微调后的权重参数
-	├── t5_saved_dict            # t5模型微调后的权重参数
+	├── bert_saved_dict             # bert模型微调后的权重参数
+	├── t5_saved_dict               # t5模型微调后的权重参数
 ├── train_eval
     ├── train_bert.py                # bert模型的训练流程
     ├── train_t5.py                  # t5模型的训练流程
@@ -56,6 +56,7 @@ pip install -r requirements.txt
 ├── requirements.txt                 # 第三方依赖库
 ├── README.md                        # 说明文档             
 ```
+
 
 ## 6、中文数据集
 
