@@ -1,0 +1,8 @@
+torch==2.0.1
+transformers==4.45.1
+tqdm==4.66.5
+numpy==1.24.0
+scikit-learn==1.5.1
+pytorch-pretrained-bert==0.6.2
+matplotlib==3.9.2
+nltk==3.9.1
